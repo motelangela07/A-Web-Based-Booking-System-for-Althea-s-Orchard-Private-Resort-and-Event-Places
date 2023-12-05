@@ -1,0 +1,33 @@
+.bg {
+             
+             height: 100%;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+            }
+        
+        .mail{
+            color: black;
+        }
+        .pass{
+            color: black;
+        }
+        h1{
+            color: red;
+        }
+        h1{
+            margin-Top: 10;
+        }
+        form{
+            margin-left: 80px;
+        }
+        .active{
+        color: red;
+       }
+        a{
+        text-decoration: none;
+        margin-left: 20px;
+       }
+       a:hover {
+        color: lightgreen;
+}

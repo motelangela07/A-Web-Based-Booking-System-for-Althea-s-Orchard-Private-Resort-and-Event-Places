@@ -1,0 +1,532 @@
+#bg1 {
+    background-image: url("../img/h1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Ito ang nadagdag na bahagi para mapanatili itong fullscreen */
+    margin-top: 1.1%;
+    margin-right: -2%;
+    margin-left: -2%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 80vh; /* Binago natin ang height na 100vh para maipakita ito sa buong screen height */
+}
+.divider {
+    margin:  -6%; /* Adjust the margin as needed to control the spacing */
+    color: #333; /* Set the color of the divider */
+}
+
+
+.centered-title {
+    margin-top: 29%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* Custom CSS for the modal */
+.modal-content {
+    border-radius: 0; /* Customize border radius */
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+/* Center the modal vertically and horizontally */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Style the small logo */
+.modal-body img {
+    max-width: 100%; /* Adjust the max width as needed */
+    margin-bottom: 20px; /* Add space below the logo */
+}
+/* Style the select dropdown */
+.custom-select {
+    position: relative;
+}
+
+.select-label {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.select-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.modal-title {
+    color: black; /* Title color */
+}
+
+/* Style for the modal content */
+.modal-content {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+/* Style for the form control label */
+.modal-body label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the form control select */
+.modal-body select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Style for the "Proceed" button */
+.modal-body button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-top: 1%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Style for the close button in the modal header */
+.modal-header .close {
+    color: #007bff;
+}
+
+/* Style for the close button on hover */
+.modal-header .close:hover {
+    color: #0056b3;
+}
+
+
+label {
+    color: black;
+}
+
+.Add {
+    color: yellow;
+}
+
+#Con {
+    color: yellow;
+}
+
+.mail {
+    color: yellow;
+}
+
+h1 {
+    color: black;
+    margin-top: 50px;
+}
+
+form {
+    margin-left: 80px;
+}
+
+.active {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+.logo {
+    width: 70px;
+    
+    
+}
+.main-heading {
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgb(119, 176, 241);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row > .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.row > .col-12 h1 {
+    text-align: center;
+    
+}
+
+.row > .col-12 .logo {
+    margin-left: -113%;
+    margin-top: -12px;
+    margin-bottom: 40px;
+}
+
+.row > .col-12 .main-heading {
+    margin-top: -0px;
+    margin-bottom: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo-text {
+    font-size: 20px;
+    margin-top: -27%; /* Alisin ang margin-top na ito */
+    margin-bottom: 7%;
+    text-align: left;
+    margin-left: -150%; /* Alisin ang margin-left na ito */  
+}
+.main-heading {
+    font-size: 20px;
+    border-top: 2px solid black; /* Ito ang border sa itaas */
+    border-bottom: 2px solid black; /* Ito ang border sa ibaba */
+    padding: 10px 0; /* Idagdag padding para hindi dikitin ang laman ng header */
+    width: 120.5%; /* Paramihin ang lapad para sumakop ng buong header */
+    box-sizing: border-box; /* Siguruhing isinama ang border sa kabuuang lapad */
+    text-align: center; /* I-center ang text sa header */
+  
+}
+
+.main-heading a {
+    margin: 0 0.9cm; /* Idagdag ang 1 inch na margin sa bawat link */
+
+}
+.signup-link {
+    font-family:  sans-serif;
+    word-spacing: -1%;
+    font-size: 20px;
+    margin-top: -7%; /* Adjust this margin as needed to position the text correctly */
+    margin-bottom: 13px;
+    margin-right: -95%;
+}
+.header-text {
+    font-family:  sans-serif;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: -1.6%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ito ang nadagdag na bahagi para ilipat ang header text sa kaliwang sulok */
+}
+/* Add the following CSS rules to your home.css file */
+/* Modify your CSS */
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    align-items: left;
+    z-index: 1;
+    
+}
+
+/* Para to sa icon na menu*/
+#menu-icon {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-left: -400px;
+    color: black; /* Set the color to your desired color */
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+    
+}
+
+#menu-icon:hover {
+    color: black; /* Change the color on hover */
+    transform: scale(1.1); /* Enlarge the icon slightly on hover */
+    transition: color 0.2s, transform 0.s; /* Add smooth transitions */
+}
+#bg2 {
+    background-image: url("../img/h2.jpg");
+    background-color: #9DB6D2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 90%;
+    margin-top: 5%;
+    width: 120.5%;
+    height: 80vh;
+    margin-bottom: 50%;
+}
+
+#bg3 {
+    background-image: url("../img/h3.jpg");
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    margin-top: -50%;
+    width: 121.5%;
+    height: 80vh;
+    margin-bottom: 50%;
+}
+/* Add this CSS to your stylesheet */
+#bg4 {
+    background-color: #9DB6D2;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 50% 60%;
+    margin-top: -50%;
+    width: 121.5%;
+    height: 80vh;
+    margin-bottom: 5%;
+    
+  }
+  #bg4 {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; /* Center and cover the entire container */
+    position: relative;
+    height: 110vh;
+    width: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  video {
+    margin-top: 10%;
+    max-width: 105%; /* Make the video responsive */
+    display: block;
+    width: 70%; 
+    
+  }
+  
+  .centered-title {
+    position: absolute;
+    margin-top: -23%; /* Position it in the middle vertically */
+    margin-bottom: 10px;
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    color: #fff; /* Set text color */
+    font-size: 24px; /* Customize the font size */
+    /* Add additional styling as needed for your centered title */
+}
+.centered-title h1 {
+    font-size: 25px; /* Adjust the font size as needed */
+    color: black; /* Set your desired text color */
+}
+
+/* Style for the paragraph */
+.video-paragraph {
+    font-size: 15px; /* Adjust the font size as needed */
+   
+    color: black; /* Set your desired text color */
+    line-height: 1.4; /* Adjust the line height for spacing */
+    margin-bottom: 5px;
+}
+.main-footer {
+    background-color: white; /* Choose a background color for your footer */
+    color: black; /* Text color */
+    padding: 30px 0; /* Add padding to the top and bottom of the footer */
+    margin-top: 20px; /* Adjust the margin between the pictures and the footer */
+    margin-left: 10%;
+    text-align: left;
+}
+
+/* Style for the icons */
+.footer-icons i {
+    margin-right: 10px;
+}
+h6{
+    text-align: center;
+}
+/* Container styling */
+#bg5 {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; /* Center and cover the entire container */
+    position: relative;
+    height: 10vh;
+    width: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  #bg6 {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; /* Center and cover the entire container */
+    position: relative;
+    height: 10vh;
+    width: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+ /* Styling for the testimonial container */
+.testimonial-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px; /* Adjust margin as needed */
+}
+
+/* Styling for individual testimonials */
+.testimonial, .testimonial-card {
+    
+    width: 30%; /* Adjust width as needed */
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.testimonial img, .testimonial-card img {
+    max-width: 50%;
+    
+    border-radius: 50%; /* Make images circular */
+}
+
+/* Styling for testimonial cards in the second row */
+.testimonial-card {
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+.question, .answer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%; /* Adjust width as needed */
+    margin-bottom: 3%;
+}
+
+.question {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.answer {
+    background-color: lightblue;
+    display: none;
+    border-radius: 5px;
+}
+
+.row1, .row2 {
+    width: 48%; /* Adjust the width as per your preference */
+}
+
+.question, .answer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 5%;
+    width: 90%; /* Adjust width as needed */
+    margin-bottom: 3%;
+}
+
+.question {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.answer {
+    background-color: lightblue;
+    display: none;
+    border-radius: 5px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+/* Add these styles to your existing CSS */
+@media only screen and (max-width: 768px) {
+    .signup-link a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .header-text {
+        margin-top: 5%;
+    }
+
+    h1.main-heading {
+        font-size: 18px;
+    }
+
+    #bg1, #bg2, #bg3, #bg4, #bg5, #bg6 {
+        background-size: cover;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .centered-title {
+        margin-top: -10%;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .testimonial-container,
+    .testimonial,
+    .testimonial-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

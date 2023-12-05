@@ -1,0 +1,527 @@
+#bg1 {
+    background-image: url("../img/r1.jpg");
+    background-color: #9DB6D2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Ito ang nadagdag na bahagi para mapanatili itong fullscreen */
+    margin-top: 1.2%;
+    margin-bottom: 12%;
+    margin-right: -2%;
+    margin-left: -2%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; /* Binago natin ang height na 100vh para maipakita ito sa buong screen height */
+}
+
+/* Custom CSS for the modal */
+.modal-content {
+    border-radius: 0; /* Customize border radius */
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+/* Center the modal vertically and horizontally */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Style the small logo */
+.modal-body img {
+    max-width: 100%; /* Adjust the max width as needed */
+    margin-bottom: 20px; /* Add space below the logo */
+}
+/* Style the select dropdown */
+.custom-select {
+    position: relative;
+}
+
+.select-label {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.select-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.modal-title {
+    color: black; /* Title color */
+}
+
+/* Style for the modal content */
+.modal-content {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+/* Style for the form control label */
+.modal-body label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the form control select */
+.modal-body select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Style for the "Proceed" button */
+.modal-body button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-top: 1%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Style for the close button in the modal header */
+.modal-header .close {
+    color: #007bff;
+}
+
+/* Style for the close button on hover */
+.modal-header .close:hover {
+    color: #0056b3;
+}
+
+.centered-title {
+    margin-top: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.centered-title h2 {
+    font-size: 36px;
+    color: #9DB6D2;
+    
+}
+.rooms-paragraph {
+    font-size: 18px;
+    color: black;
+   
+}
+
+label {
+    color: black;
+}
+
+.Add {
+    color: yellow;
+}
+
+#Con {
+    color: yellow;
+}
+
+.mail {
+    color: yellow;
+}
+
+h1 {
+    color: black;
+    margin-top: 50px;
+}
+
+form {
+    margin-left: 80px;
+}
+
+.active {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+.logo {
+    width: 70px;
+    
+    
+}
+
+.main-heading {
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgb(119, 176, 241);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row > .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.row > .col-12 h1 {
+    text-align: center;
+    
+}
+
+.row > .col-12 .logo {
+    margin-left: -113%;
+    margin-top: -12px;
+    margin-bottom: 40px;
+}
+
+.row > .col-12 .main-heading {
+    margin-top: -0px;
+    margin-bottom: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo-text {
+    font-size: 20px;
+    margin-top: -27%; /* Alisin ang margin-top na ito */
+    margin-bottom: 7%;
+    text-align: left;
+    margin-left: -150%; /* Alisin ang margin-left na ito */  
+}
+.main-heading {
+    font-size: 20px;
+    border-top: 2px solid black; /* Ito ang border sa itaas */
+    border-bottom: 2px solid black; /* Ito ang border sa ibaba */
+    padding: 10px 0; /* Idagdag padding para hindi dikitin ang laman ng header */
+    width: 121.5%; /* Paramihin ang lapad para sumakop ng buong header */
+    box-sizing: border-box; /* Siguruhing isinama ang border sa kabuuang lapad */
+    text-align: center; /* I-center ang text sa header */
+  
+}
+
+.main-heading a {
+    margin: 0 0.9cm; /* Idagdag ang 1 inch na margin sa bawat link */
+
+}
+.signup-link {
+    font-family:  sans-serif;
+    word-spacing: -1%;
+    font-size: 20px;
+    margin-top: -7%; /* Adjust this margin as needed to position the text correctly */
+    margin-bottom: 13px;
+    margin-right: -95%;
+}
+.header-text {
+    font-family:  sans-serif;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: -1.6%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ito ang nadagdag na bahagi para ilipat ang header text sa kaliwang sulok */
+}
+/* Add the following CSS rules to your home.css file */
+/* Modify your CSS */
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    align-items: left;
+    z-index: 1;
+    
+}
+
+#bg2 {
+    background-image: url("../img/r2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Changed width to 100% */
+    height: 70vh;
+    margin-bottom: 50%; /* This margin-bottom might need adjustment, depending on your layout */
+}
+
+.left-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-right: 5%;
+    position: relative; /* Added position: relative */
+}
+
+.left-title {
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+    position: absolute;
+    top: -25%; /* Adjust the top position as needed */
+    right: 0; /* Adjust the right position as needed */
+}
+
+.left-title h2 {
+    margin-top: -1.9%; /* This may need adjustment */
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+}
+
+/* Removed .left-image CSS as it wasn't used in your HTML */
+
+h2 {
+    text-align: center;
+}
+h6{
+    margin-top: -3%;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-align: center;
+    line-height: 1.6;
+    font-size: medium;
+}
+#bg3 {
+    background-image: url("../img/r3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Set background-size to 100% 100% */
+    margin-top: -45%;
+    width:110%; /* Set the width to 100% to cover the whole screen */
+    height: 70vh;
+    margin-bottom: 50%; /* This margin-bottom might need adjustment, depending on your layout */
+}
+
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative; /* Added position: relative */
+}
+
+.right-title {
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+    position: absolute;
+    margin-right: 60%;
+    top: -25%; /* Adjust the top position as needed */
+    right: 0; /* Adjust the right position as needed */
+}
+
+.right-title h2 {
+    margin-top: -1.9%; /* This may need adjustment */
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+}
+
+h6 {
+    margin-top: -3%;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-align: center;
+    line-height: 2.5%;
+    font-size: medium;
+}
+#bg4 {
+    background-image: url("../img/r4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    margin-top: -45%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Changed width to 100% */
+    height: 70vh;
+    margin-bottom: 50%; /* This margin-bottom might need adjustment, depending on your layout */
+}
+
+.left-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-right: 5%;
+    position: relative; /* Added position: relative */
+}
+
+.left-title {
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+    position: absolute;
+    top: -25%; /* Adjust the top position as needed */
+    right: 0; /* Adjust the right position as needed */
+}
+
+.left-title h2 {
+    margin-top: -1.9%; /* This may need adjustment */
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+}
+
+/* Removed .left-image CSS as it wasn't used in your HTML */
+
+h2 {
+    text-align: center;
+}
+h6{
+    margin-top: -3%;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-align: center;
+    line-height:1.1;
+    font-size: medium;
+}
+#bg5 {
+    background-image: url("../img/r5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    margin-top: -45%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Changed width to 100% */
+    height: 70vh;
+    margin-bottom: 5%; /* This margin-bottom might need adjustment, depending on your layout */
+}
+
+.left-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    position: relative; /* Added position: relative */
+}
+
+.left-title {
+    flex: 1;
+    text-align: left;
+    padding: 40px;
+    position: absolute;
+    margin-right: 5%;
+    top: -25%; /* Adjust the top position as needed */
+    right: 0; /* Adjust the right position as needed */
+}
+
+.left-title h2 {
+    margin-top: -1.9%; /* This may need adjustment */
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+}
+
+/* Removed .left-image CSS as it wasn't used in your HTML */
+
+h2 {
+    text-align: center;
+}
+h6{
+    margin-top: -3%;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-align: center;
+    line-height: 2.5%;
+    font-size: medium;
+}
+
+
+
+/* Para to sa icon na menu*/
+#menu-icon {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-left: -400px;
+    color: #000; /* Set the color to your desired color */
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}
+
+#menu-icon:hover {
+    color: #00f; /* Change the color on hover */
+    transform: scale(1.1); /* Enlarge the icon slightly on hover */
+    transition: color 0.2s, transform 0.2s; /* Add smooth transitions */
+}
+.main-footer {
+    background-color: white; /* Choose a background color for your footer */
+    color: black; /* Text color */
+    padding: 30px 0; /* Add padding to the top and bottom of the footer */
+    margin-top: 20px; /* Adjust the margin between the pictures and the footer */
+    margin-left: 10%;
+    text-align: left;
+}
+
+/* Style for the icons */
+.footer-icons i {
+    margin-right: 10px;
+}
+h6{
+    text-align: center;
+}
+
+
+
+
+
+
+

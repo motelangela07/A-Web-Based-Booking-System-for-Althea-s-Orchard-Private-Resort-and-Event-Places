@@ -1,0 +1,13 @@
+
+@media print {
+    body {
+        font-size: 20pt; /* Adjust font size for print */
+        margin: 10mm; /* Adjust margins for print */
+    }
+
+    .printHidden {
+        display: none; /* Hide the print button when printing */
+    }
+
+    /* Add additional print styles here */
+}

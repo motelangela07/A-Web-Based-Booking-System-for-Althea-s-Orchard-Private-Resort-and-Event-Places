@@ -1,0 +1,842 @@
+#bg1 {
+    background-image: url("../img/s1.jpg");
+    background-color: #9DB6D2;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Ito ang nadagdag na bahagi para mapanatili itong fullscreen */
+    margin-top: 1.2%;
+    margin-bottom: 12%;
+    margin-right: -2%;
+    margin-left: -2%;
+    width: 131.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; /* Binago natin ang height na 100vh para maipakita ito sa buong screen height */
+}
+/* Custom CSS for the modal */
+.modal-content {
+    border-radius: 0; /* Customize border radius */
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+/* Center the modal vertically and horizontally */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Style the small logo */
+.modal-body img {
+    max-width: 100%; /* Adjust the max width as needed */
+    margin-bottom: 20px; /* Add space below the logo */
+}
+/* Style the select dropdown */
+.custom-select {
+    position: relative;
+}
+
+.select-label {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.select-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.modal-title {
+    color: black; /* Title color */
+}
+
+/* Style for the modal content */
+.modal-content {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+/* Style for the form control label */
+.modal-body label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the form control select */
+.modal-body select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Style for the "Proceed" button */
+.modal-body button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-top: 1%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Style for the close button in the modal header */
+.modal-header .close {
+    color: #007bff;
+}
+
+/* Style for the close button on hover */
+.modal-header .close:hover {
+    color: #0056b3;
+}
+.centered-title {
+    margin-top: 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.centered-title h2 {
+    font-size: 36px;
+    color: #9DB6D2;
+    
+}
+.services-paragraph {
+    font-size: 18px;
+    color: black;
+  
+}
+
+label {
+    color: black;
+}
+
+.Add {
+    color: yellow;
+}
+
+#Con {
+    color: yellow;
+}
+
+.mail {
+    color: yellow;
+}
+
+h1 {
+    color: black;
+    margin-top: 50px;
+}
+
+form {
+    margin-left: 80px;
+}
+
+.active {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+.logo {
+    width: 70px;
+    
+    
+}
+
+.main-heading {
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgb(119, 176, 241);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row > .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.row > .col-12 h1 {
+    text-align: center;
+    
+}
+
+.row > .col-12 .logo {
+    margin-left: -113%;
+    margin-top: -12px;
+    margin-bottom: 40px;
+}
+
+.row > .col-12 .main-heading {
+    margin-top: -0px;
+    margin-bottom: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo-text {
+    font-size: 20px;
+    margin-top: -27%; /* Alisin ang margin-top na ito */
+    margin-bottom: 7%;
+    text-align: left;
+    margin-left: -150%; /* Alisin ang margin-left na ito */  
+}
+.main-heading {
+    font-size: 20px;
+    border-top: 2px solid black; /* Ito ang border sa itaas */
+    border-bottom: 2px solid black; /* Ito ang border sa ibaba */
+    padding: 10px 0; /* Idagdag padding para hindi dikitin ang laman ng header */
+    width: 121.5%; /* Paramihin ang lapad para sumakop ng buong header */
+    box-sizing: border-box; /* Siguruhing isinama ang border sa kabuuang lapad */
+    text-align: center; /* I-center ang text sa header */
+  
+}
+
+.main-heading a {
+    margin: 0 0.9cm; /* Idagdag ang 1 inch na margin sa bawat link */
+
+}
+.signup-link {
+    font-family:  sans-serif;
+    word-spacing: -1%;
+    font-size: 20px;
+    margin-top: -7%; /* Adjust this margin as needed to position the text correctly */
+    margin-bottom: 13px;
+    margin-right: -95%;
+}
+.header-text {
+    font-family:  sans-serif;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: -1.6%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ito ang nadagdag na bahagi para ilipat ang header text sa kaliwang sulok */
+}
+/* Add the following CSS rules to your home.css file */
+/* Modify your CSS */
+#bg3 {
+    background-image: url("../img/s2.png");
+    background-color: white; /* Background color for the new section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; 
+}
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+    align-items: left;
+    z-index: 1;
+    line-height: 1.5;
+    
+}
+#bg4 {
+    background-image: url("../img/s3.png");
+    background-color: white; /* Background color for the new section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; 
+}
+
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: black;
+    align-items: left;
+    z-index: 1;
+    line-height: 1.5;
+    
+}
+h2 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+h6{
+    margin-top: 1%;
+    color: blue;
+    text-align: center;
+}
+
+#bg5 {
+    background-image: url("../img/s4.png");
+    background-color: white; /* Background color for the new section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; 
+}
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: black;
+    align-items: left;
+    z-index: 1;
+    line-height: 1.4;
+    
+}
+#bg6 {
+    background-image: url("../img/s3.png");
+    background-color: white; /* Background color for the new section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; 
+}
+
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+    align-items: left;
+    z-index: 1;
+    line-height: 1.5;
+    
+}
+h2 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+h6{
+    margin-top: 1%;
+    color: blue;
+    text-align: center;
+}
+.p{
+    text-align: center;
+    line-height: -1%;
+
+}
+
+#bg7 {
+    background-image: url("../img/s3.png");
+    background-color: white; /* Background color for the new section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; 
+}
+
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+    align-items: left;
+    z-index: 1;
+    line-height: 1.5;
+    
+}
+h2 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    
+}
+h6{
+    margin-top: -1%;
+    color: blue;
+    text-align: center;
+}
+ul {
+    margin-bottom: 10%;
+    margin-top: 1%;
+    text-align: center;
+    line-height: 1.7;
+    font-size: medium;
+}
+#bg8 {
+    background-image: url("../img/s3.png");
+    background-color: white; /* Background color for the new section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; 
+}
+
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+    align-items: center;
+    z-index: 1;
+    line-height: 1.5;
+    
+}
+h2 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    
+}
+h6{
+    margin-top: -1%;
+    color: blue;
+    text-align: center;
+}
+ul {
+    margin-bottom: 10%;
+    margin-top: 1%;
+    text-align: center;
+    line-height: 1.7;
+    font-size: medium;
+}
+#bg9 {
+    background-image: url("../img/s5.png");
+    background-color: white; /* Background color for the new section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; 
+}
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: black;
+    align-items: left;
+    z-index: 1;
+    line-height: 1.4;
+    
+}
+#bg10 {
+    background-image: url("../img/s3.png");
+    background-color: white; /* Background color for the new section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; 
+}
+
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+    align-items: center;
+    z-index: 1;
+    line-height: 1.5;
+    
+}
+h2 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    
+}
+h6{
+    margin-top: -1%;
+    color: blue;
+    text-align: center;
+}
+ul {
+    margin-bottom: 10%;
+    margin-top: 1%;
+    text-align: center;
+    line-height: 1.7;
+    font-size: medium;
+}
+#bg11 {
+    background-image: url("../img/s6.png");
+    background-color: white; /* Background color for the new section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; 
+}
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: black;
+    align-items: left;
+    z-index: 1;
+    line-height: 1.4;
+    
+}
+
+
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+    align-items: center;
+    z-index: 1;
+    line-height: 1.5;
+    
+}
+h2 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    
+}
+h6{
+    margin-top: -1%;
+    color: blue;
+    text-align: center;
+}
+ul {
+    margin-bottom: 10%;
+    margin-top: 1%;
+    text-align: center;
+    line-height: 1.7;
+    font-size: medium;
+}
+/* Para to sa icon na menu*/
+#menu-icon {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-left: -400px;
+    color: black; /* Set the color to your desired color */
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+    
+}
+#bg12 {
+    background-image: url("../img/s3.png");
+    background-color: white; /* Background color for the new section */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    margin-top: -1%;
+    margin-bottom: 10%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 70vh; 
+}
+
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+    align-items: center;
+    z-index: 1;
+    line-height: 1.5;
+    
+}
+h2 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    
+}
+h6{
+    margin-top: -1%;
+    color: blue;
+    text-align: center;
+}
+
+#menu-icon:hover {
+    color: #00f; /* Change the color on hover */
+    transform: scale(1.1); /* Enlarge the icon slightly on hover */
+    transition: color 0.2s, transform 0.2s; /* Add smooth transitions */
+}
+.main-footer {
+    background-color: white; /* Choose a background color for your footer */
+    color: black; /* Text color */
+    padding: 30px 0; /* Add padding to the top and bottom of the footer */
+    margin-top: 20px; /* Adjust the margin between the pictures and the footer */
+    margin-left: 10%;
+    text-align: left;
+}
+
+/* Style for the icons */
+.footer-icons i {
+    margin-right: 10px;
+}
+h6{
+    text-align: center;
+}
+
+

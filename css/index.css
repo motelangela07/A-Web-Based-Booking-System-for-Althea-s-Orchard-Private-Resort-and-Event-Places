@@ -1,0 +1,396 @@
+
+#bg1 {
+    
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 50%; /* Ito ang nadagdag na bahagi para mapanatili itong fullscreen */
+    margin-top: 5%;
+  
+    margin-bottom: -5%;
+    width: 100.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 120vh; /* Binago natin ang height na 100vh para maipakita ito sa buong screen height */
+}
+
+
+.carousel-item img {
+    margin-top: 2%;
+    width: 75%; /* Set the width to half of the container size */
+    margin: auto; /* Center the image */
+}
+ /* Custom style for carousel control arrows */
+ .carousel-control-prev, .carousel-control-next {
+    margin-top: -15%;
+    
+}
+
+/* Custom style for carousel control arrow icons */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    margin-top: -16%;
+    
+}
+/* Add this CSS to your stylesheet */
+
+#bg1.carousel {
+    /* Adjust the speed by changing the animation duration */
+    --carousel-speed: 2px; /* Change this value to your desired speed */
+}
+
+@keyframes carousel {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+#bg1.carousel .carousel-inner {
+    animation: carousel var(--carousel-speed) infinite;
+}
+
+
+.divider {
+    margin:  -6%; /* Adjust the margin as needed to control the spacing */
+    color: #333; /* Set the color of the divider */
+}
+
+
+.centered-title {
+    
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* Custom CSS for the modal */
+.modal-content {
+    border-radius: 0; /* Customize border radius */
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+/* Center the modal vertically and horizontally */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Style the small logo */
+.modal-body img {
+    max-width: 100%; /* Adjust the max width as needed */
+    margin-bottom: 20px; /* Add space below the logo */
+}
+/* Style the select dropdown */
+.custom-select {
+    position: relative;
+}
+
+.select-label {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.select-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.modal-title {
+    color: black; /* Title color */
+}
+
+/* Style for the modal content */
+.modal-content {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+}
+
+/* Style for the form control label */
+.modal-body label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the form control select */
+.modal-body select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Style for the "Proceed" button */
+.modal-body button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-top: 1%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Style for the close button in the modal header */
+.modal-header .close {
+    color: #007bff;
+}
+
+/* Style for the close button on hover */
+.modal-header .close:hover {
+    color: #0056b3;
+}
+
+
+label {
+    color: black;
+}
+
+.Add {
+    color: yellow;
+}
+
+#Con {
+    color: yellow;
+}
+
+.mail {
+    color: yellow;
+}
+
+h1 {
+    color: black;
+    margin-top: 50px;
+}
+
+form {
+    margin-left: 80px;
+}
+
+.active {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+.logo {
+    width: 70px;
+    
+    
+}
+.main-heading {
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgb(119, 176, 241);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row > .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.row > .col-12 h1 {
+    text-align: center;
+    
+}
+
+.row > .col-12 .logo {
+    margin-left: -113%;
+    margin-top: -12px;
+    margin-bottom: 40px;
+}
+
+.row > .col-12 .main-heading {
+    margin-top: -0px;
+    margin-bottom: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo-text {
+    font-size: 20px;
+    margin-top: -27%; /* Alisin ang margin-top na ito */
+    margin-bottom: 7%;
+    text-align: left;
+    margin-left: -150%; /* Alisin ang margin-left na ito */  
+}
+.main-heading {
+    font-size: 20px;
+    margin-top: 1%;
+    border-top: 2px solid black; /* Ito ang border sa itaas */
+    border-bottom: 2px solid black; /* Ito ang border sa ibaba */
+    padding: -5px 0; /* Idagdag padding para hindi dikitin ang laman ng header */
+    width: 121.5%; /* Paramihin ang lapad para sumakop ng buong header */
+    box-sizing: border-box; /* Siguruhing isinama ang border sa kabuuang lapad */
+    text-align: center; /* I-center ang text sa header */
+  
+}
+
+.main-heading a {
+    margin: 0 0.9cm; /* Idagdag ang 1 inch na margin sa bawat link */
+
+}
+.signup-link {
+    font-family:  sans-serif;
+    word-spacing: -1%;
+    font-size: 20px;
+    margin-top: -7%; /* Adjust this margin as needed to position the text correctly */
+    margin-bottom: 13px;
+    margin-right: -95%;
+}
+.header-text {
+    font-family:  sans-serif;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: -1.6%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ito ang nadagdag na bahagi para ilipat ang header text sa kaliwang sulok */
+}
+/* Add the following CSS rules to your home.css file */
+/* Modify your CSS */
+.background-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image::before {
+    content: '';
+
+    filter: blur(10px); /* Adjust the blur intensity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-text {
+    font-family:  sans-serif;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    align-items: left;
+    z-index: 1;
+    
+}
+
+/* Para to sa icon na menu*/
+#menu-icon {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-left: -400px;
+    color: black; /* Set the color to your desired color */
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+    
+}
+
+#menu-icon:hover {
+    color: black; /* Change the color on hover */
+    transform: scale(1.1); /* Enlarge the icon slightly on hover */
+    transition: color 0.2s, transform 0.s; /* Add smooth transitions */
+}
+#bg2 {
+   
+    background-color: #9DB6D2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Ito ang nadagdag na bahagi para mapanatili itong fullscreen */
+    margin-top: -15%;
+    margin-right: -2%;
+    margin-left: -2%;
+    margin-bottom: -2%;
+    width: 121.5%; /* Binago natin ang width na 100% para sumakop sa buong screen */
+    height: 7vh; /* Binago natin ang height na 100vh para maipakita ito sa buong screen height */
+}
+h2{
+    margin-top: 10%;
+    color: black;
+
+}
+h6{
+    text-align: center;
+}
+
+  .centered-title {
+    position: absolute;
+    margin-top: -20%; /* Position it in the middle vertically */
+    margin-bottom: 40px;
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    color: #fff; /* Set text color */
+    font-size: 24px; /* Customize the font size */
+    /* Add additional styling as needed for your centered title */
+}
+.centered-title h1 {
+    font-size: 25px; /* Adjust the font size as needed */
+    color: black; /* Set your desired text color */
+    margin-top: 10%;
+}
+
+
+
+.new-section {
+    background-color: #f0f0f0; /* Set the background color of your choice */
+    padding: 20px; /* Add padding as needed */
+    margin-bottom: 50px; /* Add margin as needed */
+}
+s
+    .img-fluid {
+        max-width: 10%;
+      
+        margin-bottom: 50%;
+    }
+    .main-footer {
+        background-color: white; /* Choose a background color for your footer */
+        color: black; /* Text color */
+        padding: 30px 0; /* Add padding to the top and bottom of the footer */
+        margin-top: 20px; /* Adjust the margin between the pictures and the footer */
+       margin-left: 7%;
+        text-align: left;
+    }
+
+    /* Style for the icons */
+    .footer-icons i {
+        margin-right: 10px;
+    }
+
+
+
+  
+
+
