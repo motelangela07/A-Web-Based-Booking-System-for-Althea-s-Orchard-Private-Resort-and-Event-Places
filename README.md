@@ -4,9 +4,13 @@ MEMBERS:
 Cabrera, Marc Kenshin I.    -  10% for trying his best to provide what we tasked him with.
 
 De Villa, Laudefintte M.    -  10% for editing some background photos, and compiling it on index part system.
+
 Lipata, Riazel A.           -  30% for booking computation, system design and creating the flow of the system.
+
 Magsombol, Jhustine Renz M. -  10% for fixing the style for service page and room page.
+
 Motel, Angela V.            -  40% for creating the user and admin functionalities, system design, database, and system testing.
+
 
 I. TOPIC SUMMARY AND RELATION TO SDG
 
