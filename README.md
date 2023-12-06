@@ -20,4 +20,7 @@ II. TECHNOLOGY USE FOR THE PROJECT AND WAY OF SET UP
  On the backend, JavaScript took on significant responsibilities, including computing the total booking fees, generating booking itineraries, and serving a central role in the admin section. Its contributions extended to creating the availability calendar and producing report charts. PHP facilitated the connection between the system and the database, utilizing fetch, get, and post methods to retrieve and showcase necessary information. Mysqli queries were instrumental for fundamental database operations, encompassing select, insert into adding, and updating.
 
  To monitor the ongoing progress of the system, we relied on Wampserver64 for localhost or local server access to PHPMyAdmin. Within this environment, we established the database and tables essential for storing user-inputted information.
+
+ ![b1](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/9dfafe93-c385-4df6-92f5-36032eb4c653)
+
            
