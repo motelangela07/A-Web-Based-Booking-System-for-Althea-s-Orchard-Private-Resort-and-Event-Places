@@ -6,6 +6,13 @@ MEMBERS:                     100% CONTRIBUTION    REASONS
  Lipata, Riazel A.              -      30%       - for booking computation, system design and creating the flow of the system.
  Magsombol, Jhustine Renz M.    -      10%       - for fixing the style for service page and room page.
  Motel, Angela V.               -      40%       - for creating the user and admin functionalities, system design, database, and system testing.
+ 
+MEMBERS:
+1. Cabrera, Marc Kenshin I. 
+ 10% 
+ For trying his best to provide what we tasked him with.
+2.
+ 
 
 I. TOPIC SUMMARY AND RELATION TO SDG
 
