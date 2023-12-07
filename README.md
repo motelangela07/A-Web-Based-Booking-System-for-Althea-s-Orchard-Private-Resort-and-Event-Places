@@ -1,21 +1,19 @@
- PROJECT TITLE: A WEB BASED BOOKING SYSTEM FOR ALTHEA'S ORCHARD PRIVATE RESORT AND EVENT PLACES
- 
 MEMBERS:
 1. Cabrera, Marc Kenshin I. 
  10% 
- For trying his best to provide what we tasked him with.
+- For trying his best to provide what we tasked him with.
 2. De Villa, Laudefintte M. 
  10% 
- For editing some background photos, and compiling it on index part system.
+- For editing some background photos, and compiling it on index part system.
 3. Lipata, Riazel A.  
  30% 
- For booking computation, system design and creating the flow of the system.
+- For booking computation, system design and creating the flow of the system.
 4. Magsombol, Jhustine Renz M. 
  10% 
- For fixing the style for service page and room page.
+- For fixing the style for service page and room page.
 5. Motel, Angela V. 
  40% 
- for creating the user and admin functionalities, system design, database, and system testing
+ -For creating the user and admin functionalities, system design, database, and system testing
   
  
 
