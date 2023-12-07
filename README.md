@@ -52,9 +52,8 @@ AMENITIES
 ![u14](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/c868ffbc-d8e9-4b61-be3f-396f70e50493)
 ![u15](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/2f2424d4-9b37-4164-aae7-67db9dcf95e6)
 ![u16](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/ea44514f-74c7-486d-bcaa-f7334842fb4d)
-![u17](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Pla
-![u18](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/e2500699-1a92-45fa-8e7b-9d9b44a6dede)
-ces/assets/148295519/c72327fd-d420-4723-a923-63b42b7d2992)
+![u17](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/d1e19eb1-7ab9-4f49-a477-6909e54c67c7)
+![u18](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/75445a6b-22dc-48bf-a6fd-2eebb9f228f9)
 ![u19](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/aa3cecdf-0596-4349-ab93-8af48526c651)
 ![u20](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/1df00769-820c-49e0-aa09-a780f3e3da4a)
 ![u21](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/04bac7f8-0cd6-4c1a-ab68-73bb3f667c1e)
