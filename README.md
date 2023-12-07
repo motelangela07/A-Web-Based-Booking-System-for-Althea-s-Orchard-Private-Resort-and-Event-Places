@@ -13,7 +13,7 @@ MEMBERS:
  For fixing the style for service page and room page.
 5. Motel, Angela V. 
  40% 
- For creating the user and admin functionalities, system design, database, and system testing
+ For creating the user and admin functionalities, system design, database, system flow, and system testing
   
  
 
