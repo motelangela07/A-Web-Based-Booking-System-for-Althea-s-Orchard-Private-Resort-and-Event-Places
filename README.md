@@ -7,7 +7,7 @@ MEMBERS:
  For editing some background photos, and compiling it on index part system.
 3. Lipata, Riazel A.  
  30% 
- For booking computation, system design and creating the flow of the system.
+For booking computation, system design and creating the flow of the system.
 4. Magsombol, Jhustine Renz M. 
  10% 
  For fixing the style for service page and room page.
