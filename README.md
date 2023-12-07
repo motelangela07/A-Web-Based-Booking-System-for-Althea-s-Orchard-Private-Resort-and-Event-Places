@@ -5,16 +5,13 @@ MEMBERS:
 2. De Villa, Laudefintte M. 
  10% 
  For editing some background photos, and compiling it on index part system.
-2. De Villa, Laudefintte M. 
- 10% 
- For editing some background photos, and compiling it on index part system.
-4. Lipata, Riazel A.  
+3. Lipata, Riazel A. 
  30% 
-For booking computation, system design and creating the flow of the system.
-5. Magsombol, Jhustine Renz M. 
+ For booking computation, system design and creating the flow of the system.
+4. Magsombol, Jhustine Renz M. 
  10% 
  For fixing the style for service page and room page.
-6. Motel, Angela V. 
+5. Motel, Angela V. 
  40% 
  For creating the user and admin functionalities, system design, database, and system testing
   
