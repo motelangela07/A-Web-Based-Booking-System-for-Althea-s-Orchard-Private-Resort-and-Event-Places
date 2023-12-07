@@ -23,3 +23,6 @@ II. TECHNOLOGY USE FOR THE PROJECT AND WAY OF SET UP
 
 INDEX
 ![b1](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/850d12dd-c6ce-432d-8383-d43d4d547b74)
+![b4](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/56517c8d-6a9e-4227-a808-a4241e7a4a64)
+![b2](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/a6697ba9-8f9f-4350-97ed-d39ad36c4114)
+![b3](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/d5b3cf6b-0266-444e-9d84-a6b0347b8be0)
