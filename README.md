@@ -7,7 +7,7 @@ MEMBERS:
 2. De Villa, Laudefintte M. 
  10% 
  For editing some background photos, and compiling it on index part system.
-3.  Lipata, Riazel A.  
+3. Lipata, Riazel A.  
  30% 
  For booking computation, system design and creating the flow of the system.
 4. Magsombol, Jhustine Renz M. 
