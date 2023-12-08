@@ -1,12 +1,8 @@
 
 FINAL PROJECT:
-
 IT 311 - System Administration and Maintenance
-
 IT 312 - System Integration and Architecture
-
 IT 313 - System Analysis and Design
-
 IT 314 - Web Systems and Technologies
 
 MEMBERS:
