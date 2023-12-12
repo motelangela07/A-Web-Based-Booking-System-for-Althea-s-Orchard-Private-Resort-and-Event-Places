@@ -1,10 +1,7 @@
-# FINAL PROJECT: A WEB-BASED BOOKING SYSTEM FOR ALTHEA'S ORCHARD PRIVTE RESORT AND EVENT PLACES
+# FINAL PROJECT: A Web Based Booking System for Althea's Orchard Private Resort and Event Places
 IT 311 - System Administration and Maintenance
-
 IT 312 - System Integration and Architecture
-
 IT 313 - System Analysis and Design
-
 IT 314 - Web Systems and Technologies
 
 MEMBERS:
