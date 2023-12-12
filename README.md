@@ -1,4 +1,4 @@
-# FINAL PROJECT
+# FINAL PROJECT: A WEB-BASED BOOKING SYSTEM FOR ALTHEA'S ORCHARD PRIVTE RESORT AND EVENT PLACES
 IT 311 - System Administration and Maintenance
 
 IT 312 - System Integration and Architecture
