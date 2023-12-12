@@ -29,7 +29,8 @@ The following are the members of the group alongside their specific percentage o
 10% = Magsombol (For fixing the style for service page and room page.)
 
 40% = Motel (For creating the user and admin functionalities, system design, database, system flow, and system testing)
-  TOTAL OF 100%
+
+TOTAL OF 100%
  
 
 # TOPIC SUMMARY AND RELATION TO SDG
