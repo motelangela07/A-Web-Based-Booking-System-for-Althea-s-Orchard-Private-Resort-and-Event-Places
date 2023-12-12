@@ -34,8 +34,11 @@ IT 314 - Web Systems and Technologies
 
 # TECHNOLOGY USE FOR THE PROJECT AND WAY OF SET UP
 Software: Web Browsers: Google Chrome
+
 IDE: Visual Studio Code (HTML, CSS, JavaScript, and PHP)
+
 Back-End Server: Wampserver, PHP, MyAdmin
+
 Hardware: Desktop Computer, and Laptop
 
  Within our system, we structured the front end using HTML to organize the web document, and CSS played a crucial role in defining dimensions, color schemes, and stylistic elements for the user interface. Furthermore, JavaScript was specifically implemented in the navigation menu and login section, allowing users to verify the accuracy of their entered passwords.
