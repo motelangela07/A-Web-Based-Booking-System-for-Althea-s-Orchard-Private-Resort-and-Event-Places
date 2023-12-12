@@ -1,10 +1,13 @@
 # FINAL PROJECT: A Web Based Booking System for Althea's Orchard Private Resort and Event Places
 IT 311 - System Administration and Maintenance
+
 IT 312 - System Integration and Architecture
+
 IT 313 - System Analysis and Design
+
 IT 314 - Web Systems and Technologies
 
-MEMBERS:
+# MEMBERS
 1. Cabrera, Marc Kenshin I. 
  10% 
  For trying his best to provide what we tasked him with.
