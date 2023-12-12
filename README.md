@@ -20,6 +20,8 @@ The following are the members of the group alongside their specific percentage o
 
 (40%) 21-04155@g.batstate-u.edu.ph Motel, Angela V.  
 
+
+
 10% = Cabrera (For trying his best to provide what we tasked him with.)
 
 10% = De Villa ( For editing some background photos, and compiling it on index part system.)
