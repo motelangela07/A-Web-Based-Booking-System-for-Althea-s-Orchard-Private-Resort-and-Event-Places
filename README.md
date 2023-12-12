@@ -20,8 +20,6 @@ The following are the members of the group alongside their specific percentage o
 
 (40%) 21-04155@g.batstate-u.edu.ph Motel, Angela V.  
 
-
-
 10% = Cabrera (For trying his best to provide what we tasked him with.)
 
 10% = De Villa ( For editing some background photos, and compiling it on index part system.)
@@ -31,7 +29,7 @@ The following are the members of the group alongside their specific percentage o
 10% = Magsombol (For fixing the style for service page and room page.)
 
 40% = Motel (For creating the user and admin functionalities, system design, database, system flow, and system testing)
-  
+  TOTAL OF 100%
  
 
 # TOPIC SUMMARY AND RELATION TO SDG
