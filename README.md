@@ -10,15 +10,15 @@ IT 314 - Web Systems and Technologies
 # MEMBERS AND THEIR CONTRIBUTION
 The following are the members of the group alongside their specific percentage of contribution to the project:
 
-Cabrera, Marc Kenshin I. 21-04882@g.batstate-u.edu.ph
+21-06038@g.batstate-u.edu.ph Cabrera, Marc Kenshin I.
 
-De Villa, Laudefintte M - 10%
+21-00581@g.batstate-u.edu.ph De Villa, Laudefintte M.
 
-Lipata, Riazel A.  - 30%
+21-02830@g.batstate-u.edu.ph Lipata, Riazel A.  
 
-Magsombol, Jhustine Renz M. 21-04882@g.batstate-u.edu.ph
+21-04882@g.batstate-u.edu.ph Magsombol, Jhustine Renz M. 
 
-Motel, Angela V.   - 40%
+21-04155@g.batstate-u.edu.ph Motel, Angela V.  
 
 10% = Cabrera (For trying his best to provide what we tasked him with.)
 
