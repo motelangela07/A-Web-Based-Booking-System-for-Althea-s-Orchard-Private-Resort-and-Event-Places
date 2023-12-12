@@ -33,13 +33,13 @@ IT 314 - Web Systems and Technologies
   The created system catalyzes favorable economic and employment results, in line with Sustainable Development Goal (SDG) 8: Decent Work and Economic Growth. The resulting operational efficiency is expected to lead to increased economic growth for the resort.The improved online presence and streamlined operations are anticipated to contribute to the economic viability of Althea's Orchard, fostering a positive impact on local employment and economic development in the tourism sector. The objective of SDG 8, which is to promote sustained, inclusive, and sustainable economic growth, is directly impacted by the resort's economic growth that is being driven by an increased online presence and efficient operations.
 
 # TECHNOLOGY USE FOR THE PROJECT AND WAY OF SET UP
-Software: Web Browsers: Google Chrome
+:pushpin: Software: Web Browsers: Google Chrome
 
-IDE: Visual Studio Code (HTML, CSS, JavaScript, and PHP)
+:pushpin: IDE: Visual Studio Code (HTML, CSS, JavaScript, and PHP)
 
-Back-End Server: Wampserver, PHP, MyAdmin
+:pushpin: Back-End Server: Wampserver, PHP, MyAdmin
 
-Hardware: Desktop Computer, and Laptop
+:pushpin: Hardware: Desktop Computer, and Laptop
 
  Within our system, we structured the front end using HTML to organize the web document, and CSS played a crucial role in defining dimensions, color schemes, and stylistic elements for the user interface. Furthermore, JavaScript was specifically implemented in the navigation menu and login section, allowing users to verify the accuracy of their entered passwords.
 
