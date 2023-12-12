@@ -8,6 +8,23 @@ IT 313 - System Analysis and Design
 IT 314 - Web Systems and Technologies
 
 # MEMBERS AND THEIR CONTRIBUTION
+The following are the members of the group alongside their specific percentage of contribution to the project:
+
+Cueto, Erin Alyssa - 20%
+Frago, Angel Lloydylene - 17%
+Luna, Andrei - 23%
+Villegas, Pamela - 40%
+
+This is the breakdown of the percentage used:
+
+50% = documentation
+50% = system
+
+40 = pam (30% system, 10% documentation)
+25 = andrei (15% system, 10% documentation)
+20 = erin (20% documentation)
+15 = angel (5% system, 10% docu)
+
 1. Cabrera, Marc Kenshin I. 
  10% 
  For trying his best to provide what we tasked him with.
