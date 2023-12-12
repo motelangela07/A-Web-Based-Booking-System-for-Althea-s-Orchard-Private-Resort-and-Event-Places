@@ -20,12 +20,15 @@ Magsombol, Jhustine Renz M.  - 10%
 
 Motel, Angela V.   - 40%
 
-40% = Motel (For creating the user and admin functionalities, system design, database, system flow, and system testing)
-30% = Lipata (For booking computation, system design and creating system flow.)
-10% = Magsombol (For fixing the style for service page and room page.)
-10% = De Villa ( For editing some background photos, and compiling it on index part system.)
 10% = Cabrera (For trying his best to provide what we tasked him with.)
 
+10% = De Villa ( For editing some background photos, and compiling it on index part system.)
+
+30% = Lipata (For booking computation, system design and creating system flow.)
+
+10% = Magsombol (For fixing the style for service page and room page.)
+
+40% = Motel (For creating the user and admin functionalities, system design, database, system flow, and system testing)
   
  
 
