@@ -7,7 +7,7 @@ IT 313 - System Analysis and Design
 
 IT 314 - Web Systems and Technologies
 
-# MEMBERS
+# MEMBERS AND THEIR CONTRIBUTION
 1. Cabrera, Marc Kenshin I. 
  10% 
  For trying his best to provide what we tasked him with.
