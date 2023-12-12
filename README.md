@@ -10,36 +10,22 @@ IT 314 - Web Systems and Technologies
 # MEMBERS AND THEIR CONTRIBUTION
 The following are the members of the group alongside their specific percentage of contribution to the project:
 
-Cueto, Erin Alyssa - 20%
-Frago, Angel Lloydylene - 17%
-Luna, Andrei - 23%
-Villegas, Pamela - 40%
+Cabrera, Marc Kenshin I. - 10%
 
-This is the breakdown of the percentage used:
+De Villa, Laudefintte M - 10%
 
-50% = documentation
-50% = system
+Lipata, Riazel A.  - 30%
 
-40 = pam (30% system, 10% documentation)
-25 = andrei (15% system, 10% documentation)
-20 = erin (20% documentation)
-15 = angel (5% system, 10% docu)
+Magsombol, Jhustine Renz M.  - 10%
 
-1. Cabrera, Marc Kenshin I. 
- 10% 
- For trying his best to provide what we tasked him with.
-2. De Villa, Laudefintte M. 
- 10% 
- For editing some background photos, and compiling it on index part system.
-3. Lipata, Riazel A. 
- 30% 
- For booking computation, system design and creating system flow.
-4. Magsombol, Jhustine Renz M. 
- 10% 
- For fixing the style for service page and room page.
-5. Motel, Angela V. 
- 40% 
- For creating the user and admin functionalities, system design, database, system flow, and system testing
+Motel, Angela V.   - 40%
+
+40% = Motel (For creating the user and admin functionalities, system design, database, system flow, and system testing)
+30% = Lipata (For booking computation, system design and creating system flow.)
+10% = Magsombol (For fixing the style for service page and room page.)
+10% = De Villa ( For editing some background photos, and compiling it on index part system.)
+10% = Cabrera (For trying his best to provide what we tasked him with.)
+
   
  
 
