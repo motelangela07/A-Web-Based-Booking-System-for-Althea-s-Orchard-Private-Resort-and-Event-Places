@@ -40,7 +40,7 @@ IT 314 - Web Systems and Technologies
 
  To monitor the ongoing progress of the system, we relied on Wampserver64 for localhost or local server access to PHPMyAdmin. Within this environment, we established the database and tables essential for storing user-inputted information.
  
-# TECHNOLOGY USE FOR THE PROJECT AND WAY OF SET UP
+# GUI
 
 INDEX
 ![b1](https://github.com/motelangela07/A-Web-Based-Booking-System-for-Althea-s-Orchard-Private-Resort-and-Event-Places/assets/148295519/850d12dd-c6ce-432d-8383-d43d4d547b74)
